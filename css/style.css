@@ -151,6 +151,17 @@ border: 1px solid black;*/
   background-color: cyan;
   border: 1px solid black;*/
 }
+.single-section .container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+ 
+}
+.img-single-section{
+  display: block;
+}
+
 
 
 /*footer*/
