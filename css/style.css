@@ -161,7 +161,18 @@ border: 1px solid black;*/
 .img-single-section{
   display: block;
 }
-
+.ask{
+  background-image: url('../img/stars.svg');
+  background-size: contain;
+  padding: 30px;
+  font-weight: 700;
+}
+#button-singlesection{
+  background-color: rgb(98, 168, 226);
+  color: white;
+  border: 1px solid rgb(98, 168, 226);
+  margin-top: 50px;
+}
 
 
 /*footer*/
