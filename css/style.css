@@ -168,25 +168,35 @@ border: 1px solid black;*/
 
 /*footer*/
 
+.section-footer > .container {
+  display: flex;
+  padding: 20px 0px;
+  border-bottom: 2px solid white;
+  align-items: flex-start;
+  
+  
+}
 .page-section.section-footer {
   background-color: rgb(35, 39, 42);
   color: rgb(122, 109, 209);
 }
 .footer-column big {
   width: 40%;
-  height: 40vh;
+  
   
 }
 
 .footer-column {
   width: 20%;
-  border: 1px solid black;
-  height: 40vh;
+ 
+  
   
 }
 .container-footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 60%;
-
   margin: 20px auto;
   padding: 10px 0px;
 }
@@ -197,14 +207,6 @@ border: 1px solid black;*/
   background-color: blue;*/
   display: inline;
 }
-
-.section-footer > .container {
-  display: flex;
-  padding: 20px 0px;
-  border-bottom: 2px solid white;
-  
-}
-
 .footer-items {
   list-style: none;
   padding: 15px 0px;
@@ -223,4 +225,10 @@ border: 1px solid black;*/
 }
 .title-nav-footer > a {
   color: rgb(122, 109, 209);
+}
+
+#Registrati{
+  background-color: rgb(122, 109, 209);
+  border: 1px solid rgb(122, 109, 209);
+  color: white;
 }
