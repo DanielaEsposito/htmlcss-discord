@@ -109,10 +109,10 @@ border: 1px solid black;*/
   margin: 10px;
 }
 /*main*/
-.page-section {
+.page-section{
   width: 100%;
   padding: 40px 0px;
-  background-color: rgb(229, 229, 229);
+  background-color: rgb(255, 255, 255);
   
 }
 .wave{
@@ -120,7 +120,9 @@ border: 1px solid black;*/
   height: 20vh;
   background-image: url('../img/wave.svg');
   opacity: 0.1;
-
+}
+.wave:nth-child(odd){
+  translate: scale(x-1);
 }
 .page-section .container {
   display: flex;
@@ -153,8 +155,8 @@ border: 1px solid black;*/
 .page-section:nth-child(odd) > .container {
   flex-direction: row-reverse;
 }
-.page-section:nth-child(odd) {
-  background-color: rgb(255, 255, 255);
+.page-section.colored{
+  background-color: rgb(229, 229, 229);
 }
 .page-section.single-section > .container {
   min-height: 800px;
