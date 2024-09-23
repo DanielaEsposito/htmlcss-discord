@@ -113,13 +113,13 @@ border: 1px solid black;*/
   width: 100%;
   padding: 40px 0px;
   background-color: rgb(243, 243, 233);
-  background-image:url('../img/wave.svg');
   
-  
-  
-  
- 
- 
+}
+.wave{
+  background-image: url('../img/wave.svg');
+  background-size: contain;
+  opacity: 0.1;
+
 }
 .page-section .container {
   display: flex;
