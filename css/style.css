@@ -106,7 +106,8 @@ border: 1px solid black;*/
 .page-section {
   padding: 40px 0px;
   background-image: url('../img/wave.svg');
-  background-size: cover;
+ 
+ 
 }
 .page-section .container {
   display: flex;
