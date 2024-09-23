@@ -170,16 +170,19 @@ border: 1px solid black;*/
 
 .page-section.section-footer {
   background-color: rgb(35, 39, 42);
-  color: rgb(75, 63, 117);
+  color: rgb(122, 109, 209);
 }
-.footer-column-big {
+.footer-column big {
   width: 40%;
   height: 40vh;
+  
 }
 
 .footer-column {
   width: 20%;
   border: 1px solid black;
+  height: 40vh;
+  
 }
 .container-footer-logo {
   width: 60%;
@@ -196,19 +199,28 @@ border: 1px solid black;*/
 }
 
 .section-footer > .container {
+  display: flex;
   padding: 20px 0px;
   border-bottom: 2px solid white;
+  
 }
 
 .footer-items {
   list-style: none;
+  padding: 15px 0px;
 }
-
+.flag{
+  width: 18px;
+  height: 10px;
+}
+.flag-span{
+  font-size: 10px
+}
 .footer-items > a {
   text-decoration: none;
   text-align: left;
   color: white;
 }
 .title-nav-footer > a {
-  color: darkslateblue;
+  color: rgb(122, 109, 209);
 }
