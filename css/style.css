@@ -11,24 +11,25 @@
   margin: 0px auto;
   padding: 10px;
 }
+.button-header {
+  padding: 7px 10px;
+  border-radius: 15px;
+}
 
 /*header*/
 
- 
 .upper-header {
-  background-color: rgb(37, 94,233);
+  background-color: rgb(37, 94, 233);
   padding: 10px 0px;
   color: white;
   /*debug*/
- /*background-color: antiquewhite;*/
-  
+  /*background-color: antiquewhite;*/
 }
 
 .upper-header > .container {
   display: flex;
- 
 }
-.upper-header .header-items{
+.upper-header .header-items {
   padding: 5px 10px;
   flex-basis: 20%;
   /*debug*/
@@ -43,48 +44,65 @@
 .link-items {
   display: inline-block;
   padding: 0px 10px;
-  
 }
-a{
+a {
   align-items: center;
   color: white;
   text-decoration: none;
 }
-.upper-header .header-login{
+.upper-header .header-login {
   text-align: right;
 }
-.login-header >button {
+.login-header > #button-login {
   border: 1px solid white;
   background-color: white;
-  padding: 5px 8px;
-  border-radius: 15px;
 }
 
 /*lower-header*/
-.lower-header{
-  background-image: url('../img/jumbo.png');
+.lower-header {
+  background-image: url("../img/jumbo.png");
   background-size: contain;
 
-padding: 30px 0px;
-/*debug*/
-background-color: blue;
-border: 1px solid black;
+  padding: 30px 0px;
+  /*debug*/
+  /*background-color: blue;
+border: 1px solid black;*/
 }
-.lower-header > .container{
+.lower-header > .container {
+  text-align: center;
+  color: white;
   width: 800px;
   min-height: 40vh;
   /*debug*/
-  background-color: cadetblue;
-
+  /*background-color: cadetblue;*/
+}
+.title {
+  padding: 20px 0px;
+  font-size: 2.5rem;
+  
+}
+.subtitle{
+  
+  padding: 20px 0px;
+}
+#button-white {
+  background-color: white;
+  border: 1px solid white;
+  margin: 10px;
 }
 
+#button-black {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  border: 1px solid rgb(20, 20, 20) ;
+  margin: 10px;
+}
 /*main*/
 .page-section {
   padding: 40px 0px;
 }
-.page-section  .container {
+.page-section .container {
   display: flex;
-
 }
 
 .page-section .column-lg {
@@ -93,7 +111,6 @@ border: 1px solid black;
   /*debug*/
   border: 1px solid black;
   background-color: blue;
-  
 }
 .page-section .column-sm {
   min-height: 400px;
@@ -101,21 +118,19 @@ border: 1px solid black;
   /*debug*/
   background-color: blueviolet;
   border: 1px solid black;
-  
 }
-.page-section:nth-child(odd) > .container{
+.page-section:nth-child(odd) > .container {
   flex-direction: row-reverse;
 }
-.page-section:nth-child(odd){
-  background-color: gray;
+.page-section:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
 }
-.page-section.single-section > .container{
+.page-section.single-section > .container {
   min-height: 800px;
   /*debug*/
   background-color: cyan;
   border: 1px solid black;
 }
-
 
 /*footer*/
 .page-section.section-footer {
@@ -145,7 +160,7 @@ border: 1px solid black;
   display: inline;
 }
 
-.section-footer > .container{
+.section-footer > .container {
   padding: 20px 0px;
   border-bottom: 2px solid white;
 }
