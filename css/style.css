@@ -14,7 +14,12 @@
 .button-header {
   padding: 7px 10px;
   border-radius: 15px;
+  font-weight: 600;
 }
+.button-header:hover{
+  
+  -webkit-transform: scale(1.2);
+  }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +50,7 @@ body {
 .upper-header .header-nav {
   flex-grow: 1;
   text-align: center;
+
 }
 .link-items {
   display: inline-block;
@@ -60,12 +66,17 @@ ul a {
 ul a:hover {
   background-color: rgba(255, 255, 255, 0.342);
 }
-.upper-header .header-login {
-  text-align: right;
-}
+
 .login-header > #button-login {
   border: 1px solid white;
   background-color: white;
+}
+.login-header{
+  margin-left: 0px;
+  text-align: right;
+}
+.logo-header{
+  padding-right: 20px;
 }
 
 /*lower-header*/
@@ -227,7 +238,7 @@ border: 1px solid black;*/
   height: 10px;
 }
 .flag-span {
-  font-size: 10px;
+  font-size: 13px;
 }
 .footer-items > a {
   text-decoration: none;
@@ -241,12 +252,24 @@ border: 1px solid black;*/
 .title-nav-footer > a {
   color: rgb(122, 109, 209);
 }
+.title-nav-footer>a:hover{
+  color: white;
+}
 
 #Registrati {
   background-color: rgb(122, 109, 209);
   border: 1px solid rgb(122, 109, 209);
   color: white;
 }
+#Registrati:hover{
+  
+    -webkit-transform: scale(1.2);
+    }
+
+
 .icon {
-  padding: 5px;
+  padding: 8px;
+}
+.icon:hover{
+-webkit-transform: scale(1.5);
 }
